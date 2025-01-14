@@ -4,7 +4,7 @@
                         <meta charset="utf-8" />
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                         <meta name="generator" content="Pelican" />
-                        <title>Ilyas Blog</title>
+                        <title>Ilyas Blog - python</title>
                         <link rel="stylesheet" href="/theme/css/main.css" />
                         
     
@@ -35,31 +35,7 @@
 
                 <aside id="featured" class="body">
                     <article>
-                        <h1 class="entry-title"><a href="/deploy-blog-to-gh-pages.html">Deploy blog to gh pages</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2025-01-09T10:16:00+01:00">
-                Published: Thu 09 January 2025
-        </abbr>
-
-                <address class="vcard author">
-                        By                                 <a class="url fn" href="/author/ilyas-azhukatt.html">Ilyas Azhukatt</a>
-                </address>
-        <p>In <a href="/category/blog.html">Blog</a>.</p>
-        
-</footer><!-- /.post-info --><p>These are the steps to deploy a blog to gh pages</p>                    </article>
-                </aside><!-- /#featured -->
-                    <section id="content" class="body">
-                        <h1>Other articles</h1>
-                        <hr />
-                        <ol id="posts-list" class="hfeed">
-
-                <li><article class="hentry">
-                    <header>
-                        <h1><a href="/install-pelican-the-python-static-site-generator-on-linuxubuntu.html" rel="bookmark"
-                               title="Permalink to Install Pelican, the Python Static Site Generator on Linux(Ubuntu)">Install Pelican, the Python Static Site Generator on Linux(Ubuntu)</a></h1>
-                    </header>
-
-                    <div class="entry-content">
+                        <h1 class="entry-title"><a href="/install-pelican-the-python-static-site-generator-on-linuxubuntu.html">Install Pelican, the Python Static Site Generator on Linux(Ubuntu)</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2025-01-09T09:27:00+01:00">
                 Published: Thu 09 January 2025
@@ -70,7 +46,7 @@
                 </address>
         <p>In <a href="/category/tech.html">Tech</a>.</p>
 <p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/static-site-generator.html">static site generator</a> <a href="/tag/python.html">python</a> </p>        
-</footer><!-- /.post-info -->                        <p>Here are the steps for installing Pelican the Python based static site generator on Linux.</p>
+</footer><!-- /.post-info --><p>Here are the steps for installing Pelican the Python based static site generator on Linux.</p>
 <p>First make sure Python and pip is available on your system</p>
 <div class="highlight"><pre><span></span><code><span class="err">$</span><span class="nx">python3</span><span class="w"> </span><span class="o">--</span><span class="nx">version</span>
 <span class="nx">Python</span><span class="w"> </span><span class="m m-Double">3.12.3</span>
@@ -78,12 +54,24 @@
 <span class="nx">pip</span><span class="w"> </span><span class="m m-Double">24.0</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">python3</span><span class="o">/</span><span class="nx">dist</span><span class="o">-</span><span class="nx">packages</span><span class="o">/</span><span class="nx">pip</span><span class="w"> </span><span class="p">(</span><span class="nx">python</span><span class="w"> </span><span class="m m-Double">3.12</span><span class="p">)</span>
 </code></pre></div>
 
-<p>Now create a …</p>
-                        <a class="readmore" href="/install-pelican-the-python-static-site-generator-on-linuxubuntu.html">read more</a>
-                    </div><!-- /.entry-content -->
-                </article></li>
-                    </ol><!-- /#posts-list -->
-                    </section><!-- /#content -->
+<p>Now create a Python virtual environment. Here my-blog-env is the virtual environment name.</p>
+<div class="highlight"><pre><span></span><code>python3 -m venv my-blog-env
+</code></pre></div>
+
+<p>Now enable the virtual environment using</p>
+<div class="highlight"><pre><span></span><code>source ./my-blog-env/bin/activate
+</code></pre></div>
+
+<p>Now you can see the virtual environment is activated by seeing the virtual environment name before you username.</p>
+<div class="highlight"><pre><span></span><code><span class="p">(</span><span class="n">my</span><span class="o">-</span><span class="n">blog</span><span class="o">-</span><span class="n">env</span><span class="p">)</span><span class="w"> </span><span class="n">home</span><span class="nv">@home</span><span class="o">-</span><span class="nl">desk</span><span class="p">:</span><span class="o">~</span><span class="err">$</span><span class="w"> </span>
+</code></pre></div>
+
+<p>Now Pelican can be installed in this virtual environment, this installs Pelican with markdown support.</p>
+<div class="highlight"><pre><span></span><code><span class="n">python</span><span class="w"> </span><span class="o">-</span><span class="n">m</span><span class="w"> </span><span class="n">pip</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="ss">&quot;pelican[markdown]&quot;</span>
+</code></pre></div>
+
+<p>Now run <code>pelican --help</code> to confirm the installation and see the available options.</p>                    </article>
+                </aside><!-- /#featured -->
                 <section id="extras" class="body">
                                 <div class="blogroll">
                                         <h2>links</h2>
