@@ -4,10 +4,10 @@
                         <meta charset="utf-8" />
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                         <meta name="generator" content="Pelican" />
-                        <title>Ilyas Blog - python</title>
+                        <title>Ilyas Blog - Python</title>
                         <link rel="stylesheet" href="https://01-ilyas.github.io/blog/theme/css/main.css" />
-                        
-                   
+                        <meta name="google-site-verification" content="GqROPmbPQz6z1u8YBvwpsLqbhCPPvfBaTtNVBe3IcH0" />
+
                         
 
 
@@ -18,14 +18,67 @@
                 <header id="banner" class="body">
                         <h1><a href="https://01-ilyas.github.io/blog/">Ilyas Blog</a></h1>
                         <nav><ul>
-                                                <li><a href="https://01-ilyas.github.io/blog/category/blog.html">Blog</a></li>
                                                 <li><a href="https://01-ilyas.github.io/blog/category/tech.html">Tech</a></li>
                         </ul></nav>
                 </header><!-- /#banner -->
 
                 <aside id="featured" class="body">
                     <article>
-                        <h1 class="entry-title"><a href="https://01-ilyas.github.io/blog/install-pelican-the-python-static-site-generator-on-linuxubuntu.html">Install Pelican, the Python Static Site Generator on Linux(Ubuntu)</a></h1>
+                        <h1 class="entry-title"><a href="https://01-ilyas.github.io/blog/retrying-iteration-of-a-loop-if-it-gets-failed.html">Retrying Iteration of a Loop if it gets failed</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2025-01-20T06:30:00+01:00">
+                Published: Mon 20 January 2025
+        </abbr>
+
+                <address class="vcard author">
+                        By                                 <a class="url fn" href="https://01-ilyas.github.io/blog/author/ilyas-azhukatt.html">Ilyas Azhukatt</a>
+                </address>
+        <p>In <a href="https://01-ilyas.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://01-ilyas.github.io/blog/tag/python.html">Python</a> <a href="https://01-ilyas.github.io/blog/tag/loops.html">Loops</a> <a href="https://01-ilyas.github.io/blog/tag/exception-handling.html">Exception Handling</a> </p>        
+</footer><!-- /.post-info --><p>In this post I am going to explain a code block which I used for retrying iteration of a loop if it gets failed.   </p>
+<p>This is the code</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_port_list_traffic</span><span class="p">(</span><span class="n">port_list</span><span class="p">,</span> <span class="n">connnection_handler</span><span class="p">):</span>
+    <span class="n">port_traffic_data_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="c1"># variables for adding total traffic</span>
+    <span class="n">total_in_traffic</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">total_out_traffic</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">port</span> <span class="ow">in</span> <span class="n">port_list</span><span class="p">:</span>
+        <span class="n">retries</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">max_retries</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="k">while</span> <span class="n">retries</span> <span class="o">&lt;</span> <span class="n">max_retries</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">d</span> <span class="o">=</span> <span class="n">get_port_traffic_data</span><span class="p">(</span><span class="n">port</span><span class="p">,</span><span class="n">timestamp</span><span class="p">,</span><span class="n">connection_handler</span><span class="p">)</span>
+                <span class="n">port_traffic_data_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+                <span class="c1"># cumulative sum of traffic from each ports</span>
+                <span class="n">total_in_traffic</span> <span class="o">=</span> <span class="n">total_in_traffic</span> <span class="o">+</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;in_traffic&#39;</span><span class="p">]</span>
+                <span class="n">total_out_traffic</span> <span class="o">=</span> <span class="n">total_out_traffic</span> <span class="o">+</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;out_traffic&#39;</span><span class="p">]</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="n">retries</span> <span class="o">=</span> <span class="n">retries</span> <span class="o">+</span> <span class="mi">1</span>
+                <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">e</span><span class="p">,</span><span class="s1">&#39;message&#39;</span><span class="p">):</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Retrying </span><span class="si">{</span><span class="n">port</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">retries</span><span class="si">}</span><span class="s2">th time&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">retries</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">break</span>
+</code></pre></div>
+
+<p>This code snippet is part of code which gets port statistics from a network device. I have more than 30 ports in the device. The code scans every port and gets the statistics. Then repeats the process after a certain period of time for eg 30 minutes. <br>
+But the code randomly gets errors without any clear reason when scanning the ports.</p>                    </article>
+                </aside><!-- /#featured -->
+                    <section id="content" class="body">
+                        <h1>Other articles</h1>
+                        <hr />
+                        <ol id="posts-list" class="hfeed">
+
+                <li><article class="hentry">
+                    <header>
+                        <h1><a href="https://01-ilyas.github.io/blog/install-pelican-the-python-static-site-generator-on-linuxubuntu.html" rel="bookmark"
+                               title="Permalink to Install Pelican, the Python Static Site Generator on Linux(Ubuntu)">Install Pelican, the Python Static Site Generator on Linux(Ubuntu)</a></h1>
+                    </header>
+
+                    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2025-01-09T09:27:00+01:00">
                 Published: Thu 09 January 2025
@@ -36,7 +89,7 @@
                 </address>
         <p>In <a href="https://01-ilyas.github.io/blog/category/tech.html">Tech</a>.</p>
 <p>tags: <a href="https://01-ilyas.github.io/blog/tag/pelican.html">pelican</a> <a href="https://01-ilyas.github.io/blog/tag/static-site-generator.html">static site generator</a> <a href="https://01-ilyas.github.io/blog/tag/python.html">python</a> </p>        
-</footer><!-- /.post-info --><p>Here are the steps for installing Pelican the Python based static site generator on Linux.</p>
+</footer><!-- /.post-info -->                        <p>Here are the steps for installing Pelican the Python based static site generator on Linux.</p>
 <p>First make sure Python and pip is available on your system</p>
 <div class="highlight"><pre><span></span><code><span class="err">$</span><span class="nx">python3</span><span class="w"> </span><span class="o">--</span><span class="nx">version</span>
 <span class="nx">Python</span><span class="w"> </span><span class="m m-Double">3.12.3</span>
@@ -44,24 +97,12 @@
 <span class="nx">pip</span><span class="w"> </span><span class="m m-Double">24.0</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">python3</span><span class="o">/</span><span class="nx">dist</span><span class="o">-</span><span class="nx">packages</span><span class="o">/</span><span class="nx">pip</span><span class="w"> </span><span class="p">(</span><span class="nx">python</span><span class="w"> </span><span class="m m-Double">3.12</span><span class="p">)</span>
 </code></pre></div>
 
-<p>Now create a Python virtual environment. Here my-blog-env is the virtual environment name.</p>
-<div class="highlight"><pre><span></span><code>python3 -m venv my-blog-env
-</code></pre></div>
-
-<p>Now enable the virtual environment using</p>
-<div class="highlight"><pre><span></span><code>source ./my-blog-env/bin/activate
-</code></pre></div>
-
-<p>Now you can see the virtual environment is activated by seeing the virtual environment name before you username.</p>
-<div class="highlight"><pre><span></span><code><span class="p">(</span><span class="n">my</span><span class="o">-</span><span class="n">blog</span><span class="o">-</span><span class="n">env</span><span class="p">)</span><span class="w"> </span><span class="n">home</span><span class="nv">@home</span><span class="o">-</span><span class="nl">desk</span><span class="p">:</span><span class="o">~</span><span class="err">$</span><span class="w"> </span>
-</code></pre></div>
-
-<p>Now Pelican can be installed in this virtual environment, this installs Pelican with markdown support.</p>
-<div class="highlight"><pre><span></span><code><span class="n">python</span><span class="w"> </span><span class="o">-</span><span class="n">m</span><span class="w"> </span><span class="n">pip</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="ss">&quot;pelican[markdown]&quot;</span>
-</code></pre></div>
-
-<p>Now run <code>pelican --help</code> to confirm the installation and see the available options.</p>                    </article>
-                </aside><!-- /#featured -->
+<p>Now create a …</p>
+                        <a class="readmore" href="https://01-ilyas.github.io/blog/install-pelican-the-python-static-site-generator-on-linuxubuntu.html">read more</a>
+                    </div><!-- /.entry-content -->
+                </article></li>
+                    </ol><!-- /#posts-list -->
+                    </section><!-- /#content -->
                 <section id="extras" class="body">
                                 <div class="blogroll">
                                         <h2>links</h2>
