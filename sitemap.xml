@@ -6,42 +6,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://01-ilyas.github.io/blog/</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/archives.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/author/ilyas-azhukatt.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/authors.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/categories.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/category/tech.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,6 +54,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://01-ilyas.github.io/blog/network-traffic-project-work-log.html</loc>
+<lastmod>2025-01-25T13:20:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://01-ilyas.github.io/blog/retrying-iteration-of-a-loop-if-it-gets-failed.html</loc>
 <lastmod>2025-01-20T06:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -61,43 +68,57 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://01-ilyas.github.io/blog/tag/automation.html</loc>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://01-ilyas.github.io/blog/tag/exception-handling.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/tag/loops.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://01-ilyas.github.io/blog/tag/networking.html</loc>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/tag/pelican.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/tag/python.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/tag/static-site-generator.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://01-ilyas.github.io/blog/tags.html</loc>
-<lastmod>2025-01-25T10:08:59-00:00</lastmod>
+<lastmod>2025-01-25T14:11:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
