@@ -5,120 +5,155 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://01-ilyas.github.io/blog/</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/archives.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/author/ilyas.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/author/ilyas.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/authors.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/authors.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/categories.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/category/tech.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/category/communication.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/install-pelican-the-python-static-site-generator-on-linuxubuntu.html</loc>
+<loc>/category/tech.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/importance-of-mentoring.html</loc>
+<lastmod>2025-01-29T08:32:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/install-pelican-the-python-static-site-generator-on-linuxubuntu.html</loc>
 <lastmod>2025-01-09T09:27:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/network-traffic-project-work-log.html</loc>
+<loc>/network-traffic-project-work-log.html</loc>
 <lastmod>2025-01-25T13:20:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/retrying-iteration-of-a-loop-if-it-gets-failed.html</loc>
+<loc>/retrying-iteration-of-a-loop-if-it-gets-failed.html</loc>
 <lastmod>2025-01-20T06:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/automation.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/automation.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/exception-handling.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/exception-handling.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/loops.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/loops.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/networking.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/mentoring.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/pelican.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/networking.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/python.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/pelican.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tag/static-site-generator.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/python.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://01-ilyas.github.io/blog/tags.html</loc>
-<lastmod>2025-01-25T14:14:09-00:00</lastmod>
+<loc>/tag/speeches.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/static-site-generator.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/toastmasters.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tags.html</loc>
+<lastmod>2025-01-29T08:38:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
