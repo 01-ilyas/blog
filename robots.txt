@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://01-ilyas.github.io/blog/sitemap.xml
+
