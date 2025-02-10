@@ -5,210 +5,210 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/archives.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/ilyas.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/author/ilyas.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/authors.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/authors.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/categories.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/communication.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/category/communication.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/tech.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/category/tech.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/excercise-programme-feedback-speech-social-speech.html</loc>
+<loc>https://01-ilyas.github.io/blog/excercise-programme-feedback-speech-social-speech.html</loc>
 <lastmod>2025-02-10T06:41:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/importance-of-mentoring.html</loc>
+<loc>https://01-ilyas.github.io/blog/importance-of-mentoring.html</loc>
 <lastmod>2025-01-29T08:32:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/install-pelican-the-python-static-site-generator-on-linuxubuntu.html</loc>
+<loc>https://01-ilyas.github.io/blog/install-pelican-the-python-static-site-generator-on-linuxubuntu.html</loc>
 <lastmod>2025-01-09T09:27:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/network-traffic-project-work-log.html</loc>
+<loc>https://01-ilyas.github.io/blog/network-traffic-project-work-log.html</loc>
 <lastmod>2025-01-25T13:20:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pages/notes.html</loc>
+<loc>https://01-ilyas.github.io/blog/pages/notes.html</loc>
 <lastmod>2025-02-10T06:41:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/retrying-iteration-of-a-loop-if-it-gets-failed.html</loc>
+<loc>https://01-ilyas.github.io/blog/retrying-iteration-of-a-loop-if-it-gets-failed.html</loc>
 <lastmod>2025-01-20T06:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/some-jokes-from-internet-for-joke-master-role.html</loc>
+<loc>https://01-ilyas.github.io/blog/some-jokes-from-internet-for-joke-master-role.html</loc>
 <lastmod>2025-01-30T09:33:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/automation.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/automation.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/communication-styles.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/communication-styles.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/communication.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/communication.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/exception-handling.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/exception-handling.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/joke-master.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/joke-master.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/jokes.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/jokes.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/loops.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/loops.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/mentoring.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/mentoring.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/networking.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/networking.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pelican.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/pelican.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/python.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/python.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/speeches.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/speeches.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/static-site-generator.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/static-site-generator.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/toastmasters.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tag/toastmasters.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2025-02-10T21:38:50-00:00</lastmod>
+<loc>https://01-ilyas.github.io/blog/tags.html</loc>
+<lastmod>2025-02-10T21:50:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tailored-conversations-adapting-communication-styles-for-effective-interaction.html</loc>
+<loc>https://01-ilyas.github.io/blog/tailored-conversations-adapting-communication-styles-for-effective-interaction.html</loc>
 <lastmod>2025-01-30T09:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
